@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency('faraday-http-cache', '~> 2.2')
   s.add_development_dependency('minitest', '~> 5.14', '>= 5.14.1')
   s.add_development_dependency('minitest-proveit', '~> 1.0')
-  s.required_ruby_version = ['>= 2.5', '< 3.0']
+  s.required_ruby_version = ['>= 2.5']
   s.files = Dir['{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
   s.require_paths = ['lib']
 end
